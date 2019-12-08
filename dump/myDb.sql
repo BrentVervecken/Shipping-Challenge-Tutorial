@@ -9,12 +9,12 @@ CREATE TABLE `Fietsen` (
    `id2` int(11) NOT NULL,
    `name` varchar(20) NOT NULL
  ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
- INSERT INTO `Fietsen` (`id`, `id2`, `name`) VALUES
- (1, 5, 'Ridley'),
- (2, 4, 'Canyon'),
- (3, 3, 'Specialized'),
- (4, 2, 'BMC'),
- (5, 1, 'Colnago'); 
+ INSERT INTO `Fietsen` (`id`, `name`) VALUES
+ (1, 'Ridley'),
+ (2, 'Canyon'),
+ (3, 'Specialized'),
+ (4, 'BMC'),
+ (5, 'Colnago'); 
  /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
  /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
  /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
