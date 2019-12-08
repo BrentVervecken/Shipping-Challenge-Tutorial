@@ -14,7 +14,7 @@
     $conn = mysqli_connect('db', 'user', 'R1234-56', "myDb");
     $query = 'SELECT * From Fietsen';
     $result = mysqli_query($conn, $query);
-    echo '<table class="table table-striped">';
+    echo '<table class="table table-bordered">';
     echo '<thead><tr><th></th><th>id</th><th>name</th></tr></thead>';
     while($value = $result->fetch_array(MYSQLI_ASSOC)){
         echo '<tr>';
